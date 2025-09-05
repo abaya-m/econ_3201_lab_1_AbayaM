@@ -12,9 +12,11 @@ library(dplyr)
 avg_mpg <- mpg %>%
   group_by(class) %>%
   summarise(avg_hwy_mpg = mean(hwy, na.rm = TRUE))
-ggplot(avg_mpg, aes(y = class, x = avg_hwy_mpg))+
-  geom_col(fill= "lightblue")+
-  labs(title = "Average Highway MPG by vechicle class",
-       y = "vechile class", 
-       x = "Aerage Highway MPG") +
+avg_mpg$class_color <- ifelse(avg_mpg$class == "suv", "red", "lightblue")
+ggplot(avg_mpg, aes(y=class,x = avg_hwy_mpg, fill = class_color)) +
+  geom_col()+
+  scale_fill_identity() + 
+  labs(tittle = "Average Highway MPG by vehicle Class",
+       y="Vehicle Class",
+       x= "Average Highway MPG") +
   theme_minimal()

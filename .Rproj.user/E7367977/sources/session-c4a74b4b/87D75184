@@ -3,7 +3,7 @@
     "path": "C:/Users/meaga/Downloads/Econometrics/Labs/econ_3201_lab_1_AbayaM/demo.R",
     "project_path": "demo.R",
     "type": "r_source",
-    "hash": "1487471898",
+    "hash": "221876784",
     "contents": "",
     "dirty": false,
     "created": 1757102839751.0,
@@ -13,15 +13,15 @@
         "tempName": "Untitled1",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "16,55",
-        "scrollLine": "0"
+        "cursorPosition": "21,17",
+        "scrollLine": "3"
     },
     "folds": "",
-    "lastKnownWriteTime": 1757104117,
+    "lastKnownWriteTime": 1757105608,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1757104117181,
+    "last_content_update": 1757105608207,
     "read_only": false,
     "read_only_alternatives": []
 }
