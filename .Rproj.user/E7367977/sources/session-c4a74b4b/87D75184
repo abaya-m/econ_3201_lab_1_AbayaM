@@ -3,9 +3,9 @@
     "path": "C:/Users/meaga/Downloads/Econometrics/Labs/econ_3201_lab_1_AbayaM/demo.R",
     "project_path": "demo.R",
     "type": "r_source",
-    "hash": "0",
+    "hash": "1487471898",
     "contents": "",
-    "dirty": true,
+    "dirty": false,
     "created": 1757102839751.0,
     "source_on_save": false,
     "relative_order": 2,
@@ -17,11 +17,11 @@
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1757103300,
+    "lastKnownWriteTime": 1757104117,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1757103786544,
+    "last_content_update": 1757104117181,
     "read_only": false,
     "read_only_alternatives": []
 }
